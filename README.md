@@ -21,6 +21,7 @@ Abaixo encontra-se informações pertinentes que são necessárias para seu uso.
 ##### Adicionando Git à um projeto existente
 
 -Crie um repositório no GitHub.
+
 -Navegue até a pasta raiz do seu projeto pelo terminal e dê os comandos:
 ```bash
 $ git init
@@ -50,6 +51,14 @@ Envia seu código e commits para seu repositório no GitHub *Esse comando deixar
 $ git clone LINK # substitua pelo link do repositório que queira clonar
 ```
 
-*Ao clonar, ele cria um repositório Git na pasta que é referente ao repositório de onde foi tirado
+*Ao clonar, o projeto baixado já inicia um repositório Git, esse repositório se refere ao dono do projeto
+
+##### Atualizando seu projeto local
+
+-Caso haja modificações no repositório do GitHub e você deseja atualizar no seu projeto local, digite o comando:
+
+```bash
+$ git pull #puxa os dados e o atualiza seu projeto
+```
 
 
